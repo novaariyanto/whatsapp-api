@@ -2,9 +2,7 @@
     "name": "whatsva/waapi",
     "description": "Whatsapp API to make it easier to manage and or send a message",
     "type": "library",
-    "require": {
-        "#": "1.0"
-    },
+  
     "license": "MIT",
     "autoload": {
         "psr-4": {
