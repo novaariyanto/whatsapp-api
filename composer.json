@@ -2,11 +2,18 @@
     "name": "whatsva/waapi",
     "description": "Whatsapp API to make it easier to manage and or send a message",
     "type": "library",
-  
+    "version": "1.0.1",
+    "keywords": [
+        "whatsapp-api",
+        "whatsapp-bot",
+        "whatsapp-chat",
+        "whatsapp-api-php"
+    ],
+    "require": {},
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Whatsva\\Waapi\\": "src/"
+            "Whatsva\\Waapi\\": ""
         }
     },
     "authors": [
@@ -16,5 +23,5 @@
         }
     ],
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable  ": true
 }
