@@ -5,7 +5,7 @@ class Whatsva
     public function ws_url()
     {
         // return "https://multidevice.whatsva.com";
-        return "http://ika-broadcast.com";
+        return "https://whatsva.id";
         // return "http://143.110.179.252:8081";
     }
       // Messaging
