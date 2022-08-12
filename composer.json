@@ -11,10 +11,11 @@
     ],
     "require": {},
     "license": "MIT",
+  
     "autoload": {
-        "psr-4": {
-            "Whatsva\\Waapi\\": ""
-        }
+        "classmap": [
+            "whatsva.class.php"
+        ]
     },
     "authors": [
         {
