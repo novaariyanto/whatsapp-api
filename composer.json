@@ -1,0 +1,21 @@
+{
+    "name": "whatsva/waapi",
+    "description": "Whatsapp API to make it easier to manage and or send a message",
+    "type": "library",
+    "require": {
+        "#": "1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Whatsva\\Waapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kejarkoding",
+            "email": "kejarkoding@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
