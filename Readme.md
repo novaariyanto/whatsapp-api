@@ -6,7 +6,7 @@
 Just download whatsva.class.php or use Composer: 
 
 ```
-composer require whatsva/waapi
+composer require whatsva/waapi:dev-master
 ```
 
 
