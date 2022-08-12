@@ -17,9 +17,9 @@ composer require whatsva/waapi:dev-master
 require_once ('vendor/autoload.php'); // if you use Composer
 //require_once('ultramsg.class.php'); // if you download ultramsg.class.php
 
-$instance_key="Mqw66dHfmw2k"; // whatsva.id token
-$jid="62895361034833"; // whatsva.id instance id
-$message = "hello";
+$instance_key="Mqw66dHfmw2k"; // whatsva.id instance key
+$jid="62895361034833"; // phone number receiver 
+$message = "hello"; // message to send
 $client = new Whatsva();
 
 $api=$client->sendMessageText($instance_key,$jid,$message);
